@@ -26,7 +26,7 @@ message_form.addEventListener('submit', function (e) {
 
     const options = {
         method: 'post',
-        url: 'https://livechat.test/send-message',
+        url: 'https://mgahed-livechat.herokuapp.com/send-message',
         data: {
             username: username_input.value,
             message: message_input.value
